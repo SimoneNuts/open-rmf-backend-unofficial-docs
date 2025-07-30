@@ -5,7 +5,7 @@ site_name: Open-RMF Backend Docs
 site_description: "Guida non ufficiale completa al backend di Open-RMF"
 site_url: "https://simonenuts.github.io/open-rmf-backend-unofficial-docs/"
 
-repo_url: "https://github.com/simonenuts/open-rmf-backend-unofficial-docs"
+repo_url: "https://github.com/open-rmf/rmf-web"
 edit_uri: "edit/main/docs/"
 
 nav:
@@ -82,4 +82,4 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/open-rmf/rmf-web"
+      link: "https://github.com/simonenuts/open-rmf-backend-unofficial-docs"
