@@ -56,8 +56,6 @@ theme:
 # -----------------------------
 plugins:
   - search
-  - mike:
-      version_selector: true
   - mkdocstrings:
       handlers:
         python:
