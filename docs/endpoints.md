@@ -57,7 +57,9 @@
 - Recuperare lo stato corrente di un robot  
 - Modificare lo stato di una risorsa (es. apertura porta)
 
-# 🧩 Reference completo degli Endpoint
+---
+
+## 🧩 Reference completo degli Endpoint
 Qui sotto trovi **tutti gli endpoint dettagliati** con metodi, path, parametri ed esempi
 
 !!! tip "Quick start"
@@ -114,7 +116,7 @@ Authorization: Bearer <jwt>
 
 ---
 
-## 📁 Endpoint catalogue
+## 📁 Catalogo Endpoint
 
 ### 🚨 Alert (`/alerts`)
 !!! abstract "Concept"
