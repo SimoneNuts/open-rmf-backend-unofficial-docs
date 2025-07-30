@@ -3,9 +3,9 @@
 # ===========================
 site_name: Open-RMF Backend Docs
 site_description: "Guida non ufficiale completa al backend di Open-RMF"
-site_url: "https://simonenuts.github.io/open-rmf-backend-docs/"
+site_url: "https://simonenuts.github.io/open-rmf-backend-unofficial-docs/"
 
-repo_url: "https://github.com/simonenuts/open-rmf-backend-docs"
+repo_url: "https://github.com/simonenuts/open-rmf-backend-unofficial-docs"
 edit_uri: "edit/main/docs/"
 
 nav:
