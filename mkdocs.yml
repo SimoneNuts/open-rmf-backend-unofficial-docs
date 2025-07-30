@@ -52,16 +52,6 @@ theme:
     - content.tabs.link
 
 # -----------------------------
-#  Plugins
-# -----------------------------
-plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        python:
-          paths: [src]
-
-# -----------------------------
 #  Markdown Extensions
 # -----------------------------
 markdown_extensions:
@@ -93,5 +83,3 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: "https://github.com/open-rmf/rmf-web"
-    - icon: fontawesome/brands/docker
-      link: "https://hub.docker.com/u/openrmf"
