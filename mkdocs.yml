@@ -56,7 +56,6 @@ theme:
 # -----------------------------
 plugins:
   - search
-  - mermaid2
   - mike:
       version_selector: true
   - mkdocstrings:

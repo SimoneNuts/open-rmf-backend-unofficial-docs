@@ -33,21 +33,24 @@ hide:
   <img src="https://images.squarespace-cdn.com/content/v1/61db8bd1ef81823364c61569/b9dfaa08-eaf2-4625-8725-13203e4dfd74/Light-Open-RMF-Logo-PNG.png" width="260" alt="Open-RMF" />
   <h1 style="color: white; opacity:80%">Open-RMF Backend Insights</h1>
   <p>Non solo un gateway: tutto ciò che succede <em>dietro</em> le API di Open-RMF.</p>
-
-  <a class="btn-primary" href="getting-started/">Inizia subito</a>
-  <a class="btn-primary" href="architecture/">Architettura</a>
 </div>
 
 ---
 
 ## 🌟 Inizia da qui
 
-- 📖 Leggi la [Guida introduttiva](architecture.md)
-- 🔗 Scopri [come funziona API Server](api-server.md)
-- 🤝 Integra con [API Client](api-client.md)
-- 🔍 Consulta la [lista degli endpoint](endpoints.md)
-- 💡 Prova gli [esempi di codice](examples.md)
-- 🔒 Approfondisci [autenticazione & sicurezza](authentication.md)
+- 🏗️ [Architettura generale](architecture.md)  
+  Scopri la struttura e il flusso dati dell’intero sistema.
+- 🔗 [API Server](api-server.md)  
+  Tutto ciò che serve sapere sul gateway tra frontend e Open-RMF.
+- 🤝 [API Client](api-client.md)  
+  Il punto di accesso per integrare facilmente le API nel tuo progetto.
+- 🔍 [Endpoints](endpoints.md)  
+  Panoramica degli endpoint REST e WebSocket disponibili.
+- 💡 [Esempi d’utilizzo](examples.md)  
+  Casi d’uso teorici e flussi tipici.
+- 🔒 [Autenticazione & sicurezza](authentication.md)  
+  Come vengono gestiti accessi, permessi e protezione dei dati.
 
 ---
 
