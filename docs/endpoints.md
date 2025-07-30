@@ -49,17 +49,15 @@
 
 ---
 
-## 📋 Esempi di operazioni (teorici)
+## 📋 Esempi di operazioni
 
-- **REST**
-    - Ottenere la lista delle flotte disponibili
-    - Creare un nuovo task
-    - Recuperare lo stato corrente di un robot
-    - Modificare lo stato di una risorsa (es. apertura porta)
-- **WebSocket**
-    - Ricevere notifiche in tempo reale sull’avanzamento dei task
-    - Essere aggiornati quando lo stato di un robot cambia
-    - Monitorare eventi di sistema
+### 🧭 Panoramica teorica
+- Ottenere la lista delle flotte disponibili  
+- Creare un nuovo task  
+- Recuperare lo stato corrente di un robot  
+- Modificare lo stato di una risorsa (es. apertura porta)
+- 
+--8<-- "docs/endpoints_detail.md"
 
 ---
 
