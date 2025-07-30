@@ -15,6 +15,7 @@ nav:
   - API Client: api-client.md
   - Sicurezza & Autenticazione: authentication.md
   - Endpoints: endpoints.md
+  - Micro-app Data Flow: microapp-dataflow.md
   - Esempi d'uso: examples.md
 
 # -----------------------------
