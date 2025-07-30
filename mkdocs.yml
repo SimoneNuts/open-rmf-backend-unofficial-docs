@@ -1,0 +1,100 @@
+# ===========================
+#  Open-RMF Backend Docs
+# ===========================
+site_name: Open-RMF Backend Docs
+site_description: "Guida non ufficiale completa al backend di Open-RMF"
+site_url: "https://simonenuts.github.io/open-rmf-backend-docs/"
+
+repo_url: "https://github.com/simonenuts/open-rmf-backend-docs"
+edit_uri: "edit/main/docs/"
+
+nav:
+  - Home: index.md
+  - Architettura: architecture.md
+  - API Server: api-server.md
+  - API Client: api-client.md
+  - Sicurezza & Autenticazione: authentication.md
+  - Endpoints: endpoints.md
+  - Esempi d'uso: examples.md
+
+# -----------------------------
+#  Theme Configuration
+# -----------------------------
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+
+# -----------------------------
+#  Plugins
+# -----------------------------
+plugins:
+  - search
+  - mermaid2
+  - mike:
+      version_selector: true
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+
+# -----------------------------
+#  Markdown Extensions
+# -----------------------------
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# -----------------------------
+#  Extra
+# -----------------------------
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/open-rmf/rmf-web"
+    - icon: fontawesome/brands/docker
+      link: "https://hub.docker.com/u/openrmf"
