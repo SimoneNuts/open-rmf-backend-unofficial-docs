@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/api-client/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/api-server/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/architecture/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/authentication/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/endpoints/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/examples/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://simonenuts.github.io/open-rmf-backend-unofficial-docs/microapp-dataflow/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+</urlset>
