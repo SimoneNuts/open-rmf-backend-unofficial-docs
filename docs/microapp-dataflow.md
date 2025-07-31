@@ -109,3 +109,5 @@ Estrae i gruppi mutex dai dati dei robot tramite mapping.
 - **Tipizzazione TypeScript:** ogni dato è tipizzato (es. `RobotState`, `TaskState`, `Door`, ecc.).
 - **Funzioni di utilità**: per estrarre o trasformare dati (es. `getTaskBookingLabelFromTaskState`).
 - **Observable**: i dati sono spesso forniti come observable e aggiornati in tempo reale.
+
+---
